@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import { useEffect } from "react";
 
 const GlobalStyle = createGlobalStyle`
   *, *::before, *::after {
@@ -10,11 +9,6 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default function App({ Component, pageProps }) {
-
-  useEffect(() => {
-    document.title = "Star Wars"
-  })
-
   return (
     <>
       <GlobalStyle />
