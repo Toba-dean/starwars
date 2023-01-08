@@ -16,6 +16,7 @@ export default function Characters({ characters }) {
       <Head>
         <title>Star Wars Characters | starwars.com</title>
       </Head>
+      
       <HomeScreenContainer>
         <StarFieldLeft />
 
