@@ -16,7 +16,7 @@ export default function Characters({ characters }) {
       <Head>
         <title>Star Wars Characters | starwars.com</title>
       </Head>
-      
+
       <HomeScreenContainer>
         <StarFieldLeft />
 
@@ -70,19 +70,20 @@ const StarField = styled.div`
   top: 0;
   height: 1700px;
   background-repeat: repeat-y;
-  background-image: url("https://static-mh.content.disney.io/starwars/assets/background/bg_starsL-fd4661a3ccea.jpg");
 `;
 
 const StarFieldLeft = styled(StarField)`
   left: 0;
   background-position: left center;
   background-size: 100% auto;
+  background-image: url("https://static-mh.content.disney.io/starwars/assets/background/bg_starsL-fd4661a3ccea.jpg");
 `;
 
 const StarFieldRight = styled(StarField)`
   right: 0;
   background-position: right center;
   background-size: auto 100%;
+  background-image: url("https://static-mh.content.disney.io/starwars/assets/background/bg_starsR-655c85e404d4.jpg");
 `;
 
 const Button = styled.button`
