@@ -49,8 +49,8 @@ const CharacterCard = ({ character }) => {
           </h4>
 
           {
-            locations.filter(updateLocation).map(location => (
-              <p>{location !== '' && location}</p>
+            locations.filter(updateLocation).map((location, idx) => (
+              <p key={idx}>{location !== '' && location}</p>
             ))
           }
 

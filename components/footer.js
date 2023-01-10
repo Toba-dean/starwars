@@ -8,7 +8,7 @@ const Footer = () => {
       <p>FOLLOW STAR WARS</p>
       <SocialLinks />
 
-      <Copyright>TM & © Lucasfilm Ltd. All Rights Reserved</Copyright>
+      <Copyright>TM & {'©'} Lucasfilm Ltd. All Rights Reserved</Copyright>
 
       <FooterLinksContainer>
         <a href="/" target="_blank">

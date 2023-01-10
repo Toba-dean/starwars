@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 import SocialLink from "./sociallink";
@@ -12,9 +13,9 @@ const SocialLinks = () => {
       <SocialLink image="https://static-mh.content.disney.io/starwars/assets/shared/icon_youtube-ed78c6ee1c7d.svg" />
 
       <KidsContainer>
-        <a href="/">
+        <Link href="/">
           <span />
-        </a>
+        </Link>
       </KidsContainer>
     </LinkContainer>
   )
