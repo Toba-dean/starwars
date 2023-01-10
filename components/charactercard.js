@@ -2,7 +2,6 @@ import Head from "next/head";
 import styled from "styled-components";
 
 const CharacterCard = ({ character }) => {
-  console.log(character);
 
   const updateLocation = (val, idx, self) => {
     return self.indexOf(val) === idx
