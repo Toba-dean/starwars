@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { useState, useEffect } from "react";
-import { Circle } from "better-react-spinkit";
 
 import { Footer, Header, Navbar } from "../components";
 
@@ -44,10 +43,9 @@ export default function App({ Component, pageProps }) {
               <img
                 src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254"
                 alt=""
-                width={180}
-                height={180}
+                width={290}
+                height={290}
               />
-              <Circle color="#edec51" size={60} />
             </AppLoadingContents>
           </AppLoading>
         ) : (
@@ -81,8 +79,5 @@ const AppLoadingContents = styled.div`
 
   > img {
     object-fit: contain;
-    height: 150px;
-    margin-bottom: 20px;
-    filter: brightness(0) invert(1);
   }
 `;
